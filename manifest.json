@@ -1,0 +1,21 @@
+{
+    "name": "image viewer",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "An extension to display Images.",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "background": {
+    "service_worker": "background.js"
+  },
+   "icons": {
+    "128": "logo.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "tabs"
+  ]
+
+}
